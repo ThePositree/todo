@@ -1,0 +1,23 @@
+.wrapper {
+  @apply flex px-5 justify-between items-center;
+}
+
+.wrapper + .wrapper {
+  @apply mt-2 border-t-2 pt-2 border-t-slate-500;
+}
+
+.inner {
+  @apply flex items-start;
+}
+
+.title {
+  @apply ml-2 text-slate-900 text-lg font-semibold;
+  word-break: break-all;
+}
+
+.button {
+  @apply ml-2;
+  &:hover path {
+    fill: red;
+  }
+}

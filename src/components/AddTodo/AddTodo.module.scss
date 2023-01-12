@@ -1,0 +1,13 @@
+.wrapper {
+  @apply flex justify-between px-5 items-center mb-2 py-2 bg-slate-200 rounded-lg;
+}
+
+.input {
+  @apply rounded-lg border-slate-900 border-2 pl-1 w-full mr-5;
+}
+
+.button {
+  @apply rounded-full border-2 border-slate-900 flex items-center justify-center;
+  min-width: 28px;
+  height: 28px;
+}
